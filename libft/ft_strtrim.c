@@ -6,23 +6,11 @@
 /*   By: yscheef <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/06 21:06:38 by yscheef           #+#    #+#             */
-/*   Updated: 2022/12/06 22:10:14 by yscheef          ###   ########.fr       */
+/*   Updated: 2023/06/20 11:36:27 by yscheef          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-size_t	ft_strlen(const char *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (str[i])
-	{
-		i++;
-	}
-	return (i);
-}
 
 char	*ft_shitstr(const char *s, unsigned int start, size_t len)
 {
